@@ -1,0 +1,1828 @@
+{
+  "schemaVersion": "1.0.0",
+  "character": {
+    "id": "sera",
+    "name": "Sera",
+    "version": "1.0.0",
+    "reference": "06 largest figure"
+  },
+  "viewBox": [
+    0,
+    70,
+    600,
+    940
+  ],
+  "coordinateSystem": {
+    "origin": "original sheet pixel frame",
+    "sides": "anatomical; character left appears on screen-right",
+    "pivotSpace": "absolute rest artwork coordinates nested in SVG transforms"
+  },
+  "source": "sera-master.svg",
+  "parts": [
+    {
+      "id": "sera-ground-shadow",
+      "svgId": "sera-ground-shadow",
+      "label": "발밑 그림자",
+      "parent": null,
+      "pivot": null,
+      "pivotSpace": "source-frame",
+      "paintOrder": 0,
+      "path": "parts/sera-ground-shadow.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-root",
+      "svgId": "sera-root",
+      "label": "세라",
+      "parent": null,
+      "pivot": [
+        294.0,
+        983.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 1,
+      "path": "parts/sera-root.svg",
+      "colorLayers": 82,
+      "lineLayers": 81
+    },
+    {
+      "id": "sera-hair-back",
+      "svgId": "sera-hair-back",
+      "label": "긴 뒷머리",
+      "parent": "sera-head",
+      "pivot": [
+        351.0,
+        466.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 2,
+      "path": "parts/sera-hair-back.svg",
+      "colorLayers": 4,
+      "lineLayers": 4
+    },
+    {
+      "id": "sera-hair-back-right",
+      "svgId": "sera-hair-back-right",
+      "label": "오른쪽 뒷머리",
+      "parent": "sera-hair-back",
+      "pivot": [
+        193.0,
+        504.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 3,
+      "path": "parts/sera-hair-back-right.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-back-left",
+      "svgId": "sera-hair-back-left",
+      "label": "왼쪽 뒷머리",
+      "parent": "sera-hair-back",
+      "pivot": [
+        429.0,
+        487.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 4,
+      "path": "parts/sera-hair-back-left.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-back-right-lock",
+      "svgId": "sera-hair-back-right-lock",
+      "label": "오른쪽 머리 컬",
+      "parent": "sera-hair-back",
+      "pivot": [
+        185.0,
+        549.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 5,
+      "path": "parts/sera-hair-back-right-lock.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-back-left-lock",
+      "svgId": "sera-hair-back-left-lock",
+      "label": "왼쪽 머리 컬",
+      "parent": "sera-hair-back",
+      "pivot": [
+        431.0,
+        527.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 6,
+      "path": "parts/sera-hair-back-left-lock.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-halo",
+      "svgId": "sera-halo",
+      "label": "관측 궤도",
+      "parent": "sera-head",
+      "pivot": [
+        297.0,
+        194.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 7,
+      "path": "parts/sera-halo.svg",
+      "colorLayers": 3,
+      "lineLayers": 4
+    },
+    {
+      "id": "sera-halo-inner-wall",
+      "svgId": "sera-halo-inner-wall",
+      "label": "관측 고리 파란 안쪽 벽",
+      "parent": "sera-halo",
+      "pivot": [
+        297.0,
+        194.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 8,
+      "path": "parts/sera-halo-inner-wall.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-halo-metal",
+      "svgId": "sera-halo-metal",
+      "label": "관측 고리 흰 금속",
+      "parent": "sera-halo",
+      "pivot": [
+        297.0,
+        184.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 9,
+      "path": "parts/sera-halo-metal.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-halo-orbit",
+      "svgId": "sera-halo-orbit",
+      "label": "푸른 외곽 궤도",
+      "parent": "sera-halo",
+      "pivot": [
+        292.0,
+        234.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 10,
+      "path": "parts/sera-halo-orbit.svg",
+      "colorLayers": 0,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-halo-jewel",
+      "svgId": "sera-halo-jewel",
+      "label": "관측 고리 골드 보석",
+      "parent": "sera-halo",
+      "pivot": [
+        291.0,
+        127.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 11,
+      "path": "parts/sera-halo-jewel.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-bow",
+      "svgId": "sera-bow",
+      "label": "머리 뒤 파란 리본",
+      "parent": "sera-head",
+      "pivot": [
+        462.0,
+        482.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 12,
+      "path": "parts/sera-bow.svg",
+      "colorLayers": 3,
+      "lineLayers": 3
+    },
+    {
+      "id": "sera-bow-tail",
+      "svgId": "sera-bow-tail",
+      "label": "리본 아래 꼬리",
+      "parent": "sera-bow",
+      "pivot": [
+        462.0,
+        490.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 13,
+      "path": "parts/sera-bow-tail.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-bow-loop",
+      "svgId": "sera-bow-loop",
+      "label": "리본 오른쪽 고리",
+      "parent": "sera-bow",
+      "pivot": [
+        468.0,
+        465.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 14,
+      "path": "parts/sera-bow-loop.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-bow-knot",
+      "svgId": "sera-bow-knot",
+      "label": "리본 매듭 지지면",
+      "parent": "sera-bow",
+      "pivot": [
+        462.0,
+        482.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 15,
+      "path": "parts/sera-bow-knot.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-coat-back",
+      "svgId": "sera-coat-back",
+      "label": "코트 뒤 자락",
+      "parent": "sera-root",
+      "pivot": [
+        282.0,
+        674.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 16,
+      "path": "parts/sera-coat-back.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-pelvis",
+      "svgId": "sera-pelvis",
+      "label": "골반",
+      "parent": "sera-root",
+      "pivot": [
+        282.0,
+        744.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 17,
+      "path": "parts/sera-pelvis.svg",
+      "colorLayers": 9,
+      "lineLayers": 9
+    },
+    {
+      "id": "sera-leg-right-upper",
+      "svgId": "sera-leg-right-upper",
+      "label": "오른쪽 허벅지",
+      "parent": "sera-pelvis",
+      "pivot": [
+        252.0,
+        754.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 18,
+      "path": "parts/sera-leg-right-upper.svg",
+      "colorLayers": 4,
+      "lineLayers": 4
+    },
+    {
+      "id": "sera-leg-right-lower",
+      "svgId": "sera-leg-right-lower",
+      "label": "오른쪽 스타킹",
+      "parent": "sera-leg-right-upper",
+      "pivot": [
+        252.0,
+        824.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 19,
+      "path": "parts/sera-leg-right-lower.svg",
+      "colorLayers": 3,
+      "lineLayers": 3
+    },
+    {
+      "id": "sera-foot-right",
+      "svgId": "sera-foot-right",
+      "label": "오른쪽 부츠",
+      "parent": "sera-leg-right-lower",
+      "pivot": [
+        264.0,
+        915.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 20,
+      "path": "parts/sera-foot-right.svg",
+      "colorLayers": 2,
+      "lineLayers": 2
+    },
+    {
+      "id": "sera-foot-right-gem",
+      "svgId": "sera-foot-right-gem",
+      "label": "부츠 렌즈 장식",
+      "parent": "sera-foot-right",
+      "pivot": [
+        254.0,
+        923.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 21,
+      "path": "parts/sera-foot-right-gem.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-leg-left-upper",
+      "svgId": "sera-leg-left-upper",
+      "label": "왼쪽 허벅지",
+      "parent": "sera-pelvis",
+      "pivot": [
+        319.0,
+        754.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 22,
+      "path": "parts/sera-leg-left-upper.svg",
+      "colorLayers": 4,
+      "lineLayers": 4
+    },
+    {
+      "id": "sera-leg-left-lower",
+      "svgId": "sera-leg-left-lower",
+      "label": "왼쪽 스타킹",
+      "parent": "sera-leg-left-upper",
+      "pivot": [
+        319.0,
+        824.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 23,
+      "path": "parts/sera-leg-left-lower.svg",
+      "colorLayers": 3,
+      "lineLayers": 3
+    },
+    {
+      "id": "sera-foot-left",
+      "svgId": "sera-foot-left",
+      "label": "왼쪽 부츠",
+      "parent": "sera-leg-left-lower",
+      "pivot": [
+        335.0,
+        915.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 24,
+      "path": "parts/sera-foot-left.svg",
+      "colorLayers": 2,
+      "lineLayers": 2
+    },
+    {
+      "id": "sera-foot-left-gem",
+      "svgId": "sera-foot-left-gem",
+      "label": "부츠 렌즈 장식",
+      "parent": "sera-foot-left",
+      "pivot": [
+        328.0,
+        923.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 25,
+      "path": "parts/sera-foot-left-gem.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-coat-front",
+      "svgId": "sera-coat-front",
+      "label": "흰 코트 패널",
+      "parent": "sera-root",
+      "pivot": [
+        283.0,
+        675.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 26,
+      "path": "parts/sera-coat-front.svg",
+      "colorLayers": 4,
+      "lineLayers": 4
+    },
+    {
+      "id": "sera-coat-center",
+      "svgId": "sera-coat-center",
+      "label": "중앙 흰 드레이프",
+      "parent": "sera-coat-front",
+      "pivot": [
+        275.0,
+        685.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 27,
+      "path": "parts/sera-coat-center.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-waist-front-flap",
+      "svgId": "sera-waist-front-flap",
+      "label": "허리 아래 사선 패널",
+      "parent": "sera-coat-front",
+      "pivot": [
+        236.0,
+        684.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 28,
+      "path": "parts/sera-waist-front-flap.svg",
+      "colorLayers": 2,
+      "lineLayers": 2
+    },
+    {
+      "id": "sera-waist-front-star",
+      "svgId": "sera-waist-front-star",
+      "label": "사선 패널 골드 장식",
+      "parent": "sera-waist-front-flap",
+      "pivot": [
+        236.0,
+        688.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 29,
+      "path": "parts/sera-waist-front-star.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-torso",
+      "svgId": "sera-torso",
+      "label": "상체",
+      "parent": "sera-root",
+      "pivot": [
+        286.0,
+        642.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 30,
+      "path": "parts/sera-torso.svg",
+      "colorLayers": 26,
+      "lineLayers": 26
+    },
+    {
+      "id": "sera-arm-left-upper",
+      "svgId": "sera-arm-left-upper",
+      "label": "왼쪽 상완",
+      "parent": "sera-torso",
+      "pivot": [
+        374.0,
+        588.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 31,
+      "path": "parts/sera-arm-left-upper.svg",
+      "colorLayers": 4,
+      "lineLayers": 4
+    },
+    {
+      "id": "sera-arm-left-lower",
+      "svgId": "sera-arm-left-lower",
+      "label": "왼쪽 전완",
+      "parent": "sera-arm-left-upper",
+      "pivot": [
+        401.0,
+        672.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 32,
+      "path": "parts/sera-arm-left-lower.svg",
+      "colorLayers": 3,
+      "lineLayers": 3
+    },
+    {
+      "id": "sera-hand-left",
+      "svgId": "sera-hand-left",
+      "label": "왼손 · 펼친 손",
+      "parent": "sera-arm-left-lower",
+      "pivot": [
+        426.0,
+        715.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 33,
+      "path": "parts/sera-hand-left.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-wrist-left",
+      "svgId": "sera-wrist-left",
+      "label": "왼쪽 손목 커프",
+      "parent": "sera-arm-left-lower",
+      "pivot": [
+        426.0,
+        715.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 34,
+      "path": "parts/sera-wrist-left.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-arm-right-upper",
+      "svgId": "sera-arm-right-upper",
+      "label": "오른쪽 상완",
+      "parent": "sera-torso",
+      "pivot": [
+        253.0,
+        582.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 35,
+      "path": "parts/sera-arm-right-upper.svg",
+      "colorLayers": 2,
+      "lineLayers": 2
+    },
+    {
+      "id": "sera-arm-right-lower",
+      "svgId": "sera-arm-right-lower",
+      "label": "오른쪽 전완",
+      "parent": "sera-arm-right-upper",
+      "pivot": [
+        204.0,
+        635.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 36,
+      "path": "parts/sera-arm-right-lower.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-neck",
+      "svgId": "sera-neck",
+      "label": "목",
+      "parent": "sera-torso",
+      "pivot": [
+        296.0,
+        534.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 37,
+      "path": "parts/sera-neck.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-jacket",
+      "svgId": "sera-jacket",
+      "label": "제복 몸통",
+      "parent": "sera-torso",
+      "pivot": [
+        285.0,
+        635.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 38,
+      "path": "parts/sera-jacket.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-jacket-lapel-left",
+      "svgId": "sera-jacket-lapel-left",
+      "label": "왼쪽 라펠",
+      "parent": "sera-torso",
+      "pivot": [
+        337.0,
+        565.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 39,
+      "path": "parts/sera-jacket-lapel-left.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-jacket-lapel-right",
+      "svgId": "sera-jacket-lapel-right",
+      "label": "오른쪽 라펠",
+      "parent": "sera-torso",
+      "pivot": [
+        251.0,
+        578.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 40,
+      "path": "parts/sera-jacket-lapel-right.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-chest-panel",
+      "svgId": "sera-chest-panel",
+      "label": "흰 가슴 장식",
+      "parent": "sera-torso",
+      "pivot": [
+        278.0,
+        576.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 41,
+      "path": "parts/sera-chest-panel.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-collar",
+      "svgId": "sera-collar",
+      "label": "높은 칼라",
+      "parent": "sera-torso",
+      "pivot": [
+        318.0,
+        538.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 42,
+      "path": "parts/sera-collar.svg",
+      "colorLayers": 3,
+      "lineLayers": 3
+    },
+    {
+      "id": "sera-collar-right-fold",
+      "svgId": "sera-collar-right-fold",
+      "label": "칼라 오른쪽 접힘",
+      "parent": "sera-collar",
+      "pivot": [
+        293.0,
+        547.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 43,
+      "path": "parts/sera-collar-right-fold.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-collar-front-fold",
+      "svgId": "sera-collar-front-fold",
+      "label": "칼라 앞쪽 흰 접힘",
+      "parent": "sera-collar",
+      "pivot": [
+        323.0,
+        552.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 44,
+      "path": "parts/sera-collar-front-fold.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-brooch",
+      "svgId": "sera-brooch",
+      "label": "관측 렌즈 브로치",
+      "parent": "sera-torso",
+      "pivot": [
+        296.0,
+        557.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 45,
+      "path": "parts/sera-brooch.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-shoulder-left",
+      "svgId": "sera-shoulder-left",
+      "label": "왼쪽 어깨 망토",
+      "parent": "sera-torso",
+      "pivot": [
+        374.0,
+        588.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 46,
+      "path": "parts/sera-shoulder-left.svg",
+      "colorLayers": 6,
+      "lineLayers": 6
+    },
+    {
+      "id": "sera-shoulder-left-fringe-1",
+      "svgId": "sera-shoulder-left-fringe-1",
+      "label": "견장 술",
+      "parent": "sera-shoulder-left",
+      "pivot": [
+        354.0,
+        567.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 47,
+      "path": "parts/sera-shoulder-left-fringe-1.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-shoulder-left-fringe-2",
+      "svgId": "sera-shoulder-left-fringe-2",
+      "label": "견장 술",
+      "parent": "sera-shoulder-left",
+      "pivot": [
+        367.0,
+        570.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 48,
+      "path": "parts/sera-shoulder-left-fringe-2.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-shoulder-left-fringe-3",
+      "svgId": "sera-shoulder-left-fringe-3",
+      "label": "견장 술",
+      "parent": "sera-shoulder-left",
+      "pivot": [
+        380.0,
+        573.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 49,
+      "path": "parts/sera-shoulder-left-fringe-3.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-shoulder-left-fringe-4",
+      "svgId": "sera-shoulder-left-fringe-4",
+      "label": "견장 술",
+      "parent": "sera-shoulder-left",
+      "pivot": [
+        393.0,
+        576.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 50,
+      "path": "parts/sera-shoulder-left-fringe-4.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-shoulder-left-cap",
+      "svgId": "sera-shoulder-left-cap",
+      "label": "견장 윗단",
+      "parent": "sera-shoulder-left",
+      "pivot": [
+        374.0,
+        563.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 51,
+      "path": "parts/sera-shoulder-left-cap.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-waist-belt",
+      "svgId": "sera-waist-belt",
+      "label": "허리 벨트",
+      "parent": "sera-torso",
+      "pivot": [
+        285.0,
+        640.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 52,
+      "path": "parts/sera-waist-belt.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-cross-belt",
+      "svgId": "sera-cross-belt",
+      "label": "사선 벨트",
+      "parent": "sera-torso",
+      "pivot": [
+        304.0,
+        676.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 53,
+      "path": "parts/sera-cross-belt.svg",
+      "colorLayers": 2,
+      "lineLayers": 2
+    },
+    {
+      "id": "sera-cross-belt-buckle",
+      "svgId": "sera-cross-belt-buckle",
+      "label": "사선 벨트 버클",
+      "parent": "sera-cross-belt",
+      "pivot": [
+        313.0,
+        674.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 54,
+      "path": "parts/sera-cross-belt-buckle.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-observer-badge",
+      "svgId": "sera-observer-badge",
+      "label": "관측 정보 배지",
+      "parent": "sera-torso",
+      "pivot": [
+        350.0,
+        701.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 55,
+      "path": "parts/sera-observer-badge.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-head",
+      "svgId": "sera-head",
+      "label": "머리",
+      "parent": "sera-root",
+      "pivot": [
+        302.0,
+        528.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 56,
+      "path": "parts/sera-head.svg",
+      "colorLayers": 29,
+      "lineLayers": 27
+    },
+    {
+      "id": "sera-head-base",
+      "svgId": "sera-head-base",
+      "label": "머리와 얼굴 바탕",
+      "parent": "sera-head",
+      "pivot": [
+        302.0,
+        528.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 57,
+      "path": "parts/sera-head-base.svg",
+      "colorLayers": 15,
+      "lineLayers": 13
+    },
+    {
+      "id": "sera-hair-cap",
+      "svgId": "sera-hair-cap",
+      "label": "머리 바탕",
+      "parent": "sera-head-base",
+      "pivot": [
+        300.0,
+        269.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 58,
+      "path": "parts/sera-hair-cap.svg",
+      "colorLayers": 2,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-ear-left",
+      "svgId": "sera-ear-left",
+      "label": "왼쪽 귀",
+      "parent": "sera-head-base",
+      "pivot": [
+        460.0,
+        466.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 59,
+      "path": "parts/sera-ear-left.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-face",
+      "svgId": "sera-face",
+      "label": "얼굴 지지면",
+      "parent": "sera-head-base",
+      "pivot": [
+        292.0,
+        444.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 60,
+      "path": "parts/sera-face.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-cheek-right",
+      "svgId": "sera-cheek-right",
+      "label": "오른쪽 볼",
+      "parent": "sera-head-base",
+      "pivot": [
+        202.0,
+        487.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 61,
+      "path": "parts/sera-cheek-right.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-cheek-left",
+      "svgId": "sera-cheek-left",
+      "label": "왼쪽 볼",
+      "parent": "sera-head-base",
+      "pivot": [
+        370.0,
+        464.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 62,
+      "path": "parts/sera-cheek-left.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-brow-right-anchor",
+      "svgId": "sera-brow-right-anchor",
+      "label": "오른쪽 눈썹",
+      "parent": "sera-head-base",
+      "pivot": [
+        217.0,
+        375.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 63,
+      "path": "parts/sera-brow-right-anchor.svg",
+      "colorLayers": 0,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-brow-left-anchor",
+      "svgId": "sera-brow-left-anchor",
+      "label": "왼쪽 눈썹",
+      "parent": "sera-head-base",
+      "pivot": [
+        328.0,
+        351.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 64,
+      "path": "parts/sera-brow-left-anchor.svg",
+      "colorLayers": 0,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-right",
+      "svgId": "sera-eye-right",
+      "label": "오른쪽 눈",
+      "parent": "sera-head-base",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 65,
+      "path": "parts/sera-eye-right.svg",
+      "colorLayers": 3,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-right-aperture",
+      "svgId": "sera-eye-right-aperture",
+      "label": "eye-aperture",
+      "parent": "sera-eye-right",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 66,
+      "path": "parts/sera-eye-right-aperture.svg",
+      "colorLayers": 3,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-right-sclera",
+      "svgId": "sera-eye-right-sclera",
+      "label": "sclera",
+      "parent": "sera-eye-right-aperture",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 67,
+      "path": "parts/sera-eye-right-sclera.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-right-iris",
+      "svgId": "sera-eye-right-iris",
+      "label": "보라색 홍채",
+      "parent": "sera-eye-right-aperture",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 68,
+      "path": "parts/sera-eye-right-iris.svg",
+      "colorLayers": 2,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-right-pupil",
+      "svgId": "sera-eye-right-pupil",
+      "label": "pupil",
+      "parent": "sera-eye-right-iris",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 69,
+      "path": "parts/sera-eye-right-pupil.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-right-glints",
+      "svgId": "sera-eye-right-glints",
+      "label": "눈 반사광",
+      "parent": "sera-eye-right-iris",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 70,
+      "path": "parts/sera-eye-right-glints.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-left",
+      "svgId": "sera-eye-left",
+      "label": "왼쪽 눈",
+      "parent": "sera-head-base",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 71,
+      "path": "parts/sera-eye-left.svg",
+      "colorLayers": 3,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-left-aperture",
+      "svgId": "sera-eye-left-aperture",
+      "label": "eye-aperture",
+      "parent": "sera-eye-left",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 72,
+      "path": "parts/sera-eye-left-aperture.svg",
+      "colorLayers": 3,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-left-sclera",
+      "svgId": "sera-eye-left-sclera",
+      "label": "sclera",
+      "parent": "sera-eye-left-aperture",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 73,
+      "path": "parts/sera-eye-left-sclera.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-left-iris",
+      "svgId": "sera-eye-left-iris",
+      "label": "보라색 홍채",
+      "parent": "sera-eye-left-aperture",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 74,
+      "path": "parts/sera-eye-left-iris.svg",
+      "colorLayers": 2,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-left-pupil",
+      "svgId": "sera-eye-left-pupil",
+      "label": "pupil",
+      "parent": "sera-eye-left-iris",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 75,
+      "path": "parts/sera-eye-left-pupil.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-left-glints",
+      "svgId": "sera-eye-left-glints",
+      "label": "눈 반사광",
+      "parent": "sera-eye-left-iris",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 76,
+      "path": "parts/sera-eye-left-glints.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-mouth",
+      "svgId": "sera-mouth",
+      "label": "입",
+      "parent": "sera-head-base",
+      "pivot": [
+        289.0,
+        482.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 77,
+      "path": "parts/sera-mouth.svg",
+      "colorLayers": 5,
+      "lineLayers": 6
+    },
+    {
+      "id": "sera-hair-front",
+      "svgId": "sera-hair-front",
+      "label": "앞머리와 얼굴 옆머리",
+      "parent": "sera-head",
+      "pivot": [
+        292.0,
+        270.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 78,
+      "path": "parts/sera-hair-front.svg",
+      "colorLayers": 8,
+      "lineLayers": 8
+    },
+    {
+      "id": "sera-hair-side-right",
+      "svgId": "sera-hair-side-right",
+      "label": "오른쪽 옆머리",
+      "parent": "sera-hair-front",
+      "pivot": [
+        197.0,
+        330.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 79,
+      "path": "parts/sera-hair-side-right.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-side-left",
+      "svgId": "sera-hair-side-left",
+      "label": "왼쪽 옆머리",
+      "parent": "sera-hair-front",
+      "pivot": [
+        420.0,
+        328.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 80,
+      "path": "parts/sera-hair-side-left.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-bang-right",
+      "svgId": "sera-hair-bang-right",
+      "label": "오른쪽 앞머리",
+      "parent": "sera-hair-front",
+      "pivot": [
+        276.0,
+        269.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 81,
+      "path": "parts/sera-hair-bang-right.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-bang-center",
+      "svgId": "sera-hair-bang-center",
+      "label": "가운데 앞머리",
+      "parent": "sera-hair-front",
+      "pivot": [
+        283.0,
+        268.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 82,
+      "path": "parts/sera-hair-bang-center.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-bang-left",
+      "svgId": "sera-hair-bang-left",
+      "label": "왼쪽 앞머리",
+      "parent": "sera-hair-front",
+      "pivot": [
+        300.0,
+        267.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 83,
+      "path": "parts/sera-hair-bang-left.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-hair-roots",
+      "svgId": "sera-hair-roots",
+      "label": "머리 가르마 음영",
+      "parent": "sera-hair-front",
+      "pivot": [
+        289.0,
+        269.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 84,
+      "path": "parts/sera-hair-roots.svg",
+      "colorLayers": 2,
+      "lineLayers": 2
+    },
+    {
+      "id": "sera-hair-flyaway",
+      "svgId": "sera-hair-flyaway",
+      "label": "오른쪽 바깥 머리다발",
+      "parent": "sera-hair-front",
+      "pivot": [
+        185.0,
+        306.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 85,
+      "path": "parts/sera-hair-flyaway.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-braid",
+      "svgId": "sera-braid",
+      "label": "왼쪽 땋은 머리",
+      "parent": "sera-head",
+      "pivot": [
+        446.0,
+        292.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 86,
+      "path": "parts/sera-braid.svg",
+      "colorLayers": 4,
+      "lineLayers": 4
+    },
+    {
+      "id": "sera-braid-root",
+      "svgId": "sera-braid-root",
+      "label": "땋은 머리 root",
+      "parent": "sera-braid",
+      "pivot": [
+        448.0,
+        294.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 87,
+      "path": "parts/sera-braid-root.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-braid-upper",
+      "svgId": "sera-braid-upper",
+      "label": "땋은 머리 upper",
+      "parent": "sera-braid",
+      "pivot": [
+        470.0,
+        333.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 88,
+      "path": "parts/sera-braid-upper.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-braid-middle",
+      "svgId": "sera-braid-middle",
+      "label": "땋은 머리 middle",
+      "parent": "sera-braid",
+      "pivot": [
+        486.0,
+        373.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 89,
+      "path": "parts/sera-braid-middle.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-braid-end",
+      "svgId": "sera-braid-end",
+      "label": "땋은 머리 end",
+      "parent": "sera-braid",
+      "pivot": [
+        480.0,
+        435.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 90,
+      "path": "parts/sera-braid-end.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-right-lids",
+      "svgId": "sera-eye-right-lids",
+      "label": "오른쪽 눈꺼풀과 속눈썹",
+      "parent": "sera-eye-right",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 91,
+      "path": "parts/sera-eye-right-lids.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-right-lash-open",
+      "svgId": "sera-eye-right-lash-open",
+      "label": "open-eyelid",
+      "parent": "sera-eye-right-lids",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 92,
+      "path": "parts/sera-eye-right-lash-open.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-right-closed",
+      "svgId": "sera-eye-right-closed",
+      "label": "closed-eyelid",
+      "parent": "sera-eye-right-lids",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 93,
+      "path": "parts/sera-eye-right-closed.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-left-lids",
+      "svgId": "sera-eye-left-lids",
+      "label": "왼쪽 눈꺼풀과 속눈썹",
+      "parent": "sera-eye-left",
+      "pivot": [
+        0.0,
+        0.0
+      ],
+      "pivotSpace": "eye-local",
+      "paintOrder": 94,
+      "path": "parts/sera-eye-left-lids.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-eye-left-lash-open",
+      "svgId": "sera-eye-left-lash-open",
+      "label": "open-eyelid",
+      "parent": "sera-eye-left-lids",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 95,
+      "path": "parts/sera-eye-left-lash-open.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-eye-left-closed",
+      "svgId": "sera-eye-left-closed",
+      "label": "closed-eyelid",
+      "parent": "sera-eye-left-lids",
+      "pivot": null,
+      "pivotSpace": "eye-local",
+      "paintOrder": 96,
+      "path": "parts/sera-eye-left-closed.svg",
+      "colorLayers": 0,
+      "lineLayers": 0
+    },
+    {
+      "id": "sera-hand-right",
+      "svgId": "sera-hand-right",
+      "label": "오른손 · 턱을 짚는 손",
+      "parent": "sera-arm-right-lower",
+      "pivot": [
+        208.0,
+        575.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 97,
+      "path": "parts/sera-hand-right.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-wrist-right",
+      "svgId": "sera-wrist-right",
+      "label": "오른쪽 손목 커프",
+      "parent": "sera-arm-right-lower",
+      "pivot": [
+        208.0,
+        575.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 98,
+      "path": "parts/sera-wrist-right.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    },
+    {
+      "id": "sera-sparkle",
+      "svgId": "sera-sparkle",
+      "label": "도도한 별빛 장식",
+      "parent": "sera-root",
+      "pivot": [
+        60.0,
+        389.0
+      ],
+      "pivotSpace": "source-frame",
+      "paintOrder": 99,
+      "path": "parts/sera-sparkle.svg",
+      "colorLayers": 1,
+      "lineLayers": 1
+    }
+  ],
+  "joints": [
+    {
+      "id": "torso",
+      "svgId": "sera-torso",
+      "label": "상체",
+      "pivot": [
+        286,
+        642
+      ],
+      "min": -2,
+      "max": 2,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "head",
+      "svgId": "sera-head",
+      "label": "머리",
+      "pivot": [
+        302,
+        528
+      ],
+      "min": -4,
+      "max": 4,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "shoulder-right",
+      "svgId": "sera-arm-right-upper",
+      "label": "오른쪽 어깨",
+      "pivot": [
+        253,
+        582
+      ],
+      "min": -4,
+      "max": 4,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "elbow-right",
+      "svgId": "sera-arm-right-lower",
+      "label": "오른쪽 팔꿈치",
+      "pivot": [
+        204,
+        635
+      ],
+      "min": -5,
+      "max": 5,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "wrist-right",
+      "svgId": "sera-hand-right",
+      "label": "오른쪽 손목",
+      "pivot": [
+        208,
+        575
+      ],
+      "min": -5,
+      "max": 5,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "shoulder-left",
+      "svgId": "sera-arm-left-upper",
+      "label": "왼쪽 어깨",
+      "pivot": [
+        374,
+        588
+      ],
+      "min": -12,
+      "max": 12,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "elbow-left",
+      "svgId": "sera-arm-left-lower",
+      "label": "왼쪽 팔꿈치",
+      "pivot": [
+        401,
+        672
+      ],
+      "min": -14,
+      "max": 14,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "wrist-left",
+      "svgId": "sera-hand-left",
+      "label": "왼쪽 손목",
+      "pivot": [
+        426,
+        715
+      ],
+      "min": -12,
+      "max": 12,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "hip-right",
+      "svgId": "sera-leg-right-upper",
+      "label": "오른쪽 고관절",
+      "pivot": [
+        252,
+        754
+      ],
+      "min": -4,
+      "max": 4,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "knee-right",
+      "svgId": "sera-leg-right-lower",
+      "label": "오른쪽 무릎",
+      "pivot": [
+        252,
+        824
+      ],
+      "min": -5,
+      "max": 5,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "ankle-right",
+      "svgId": "sera-foot-right",
+      "label": "오른쪽 발목",
+      "pivot": [
+        264,
+        915
+      ],
+      "min": -3,
+      "max": 3,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "hip-left",
+      "svgId": "sera-leg-left-upper",
+      "label": "왼쪽 고관절",
+      "pivot": [
+        319,
+        754
+      ],
+      "min": -4,
+      "max": 4,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "knee-left",
+      "svgId": "sera-leg-left-lower",
+      "label": "왼쪽 무릎",
+      "pivot": [
+        319,
+        824
+      ],
+      "min": -5,
+      "max": 5,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "ankle-left",
+      "svgId": "sera-foot-left",
+      "label": "왼쪽 발목",
+      "pivot": [
+        335,
+        915
+      ],
+      "min": -3,
+      "max": 3,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "hair-back",
+      "svgId": "sera-hair-back",
+      "label": "뒷머리",
+      "pivot": [
+        351,
+        466
+      ],
+      "min": -1.2,
+      "max": 1.2,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "hair-lock-right",
+      "svgId": "sera-hair-back-right-lock",
+      "label": "오른쪽 머리 컬",
+      "pivot": [
+        185,
+        549
+      ],
+      "min": -2,
+      "max": 2,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "hair-lock-left",
+      "svgId": "sera-hair-back-left-lock",
+      "label": "왼쪽 머리 컬",
+      "pivot": [
+        431,
+        527
+      ],
+      "min": -2,
+      "max": 2,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "halo",
+      "svgId": "sera-halo",
+      "label": "헤일로",
+      "pivot": [
+        297,
+        194
+      ],
+      "min": -1.5,
+      "max": 1.5,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "bow",
+      "svgId": "sera-bow",
+      "label": "리본",
+      "pivot": [
+        462,
+        482
+      ],
+      "min": -2,
+      "max": 2,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "bow-tail",
+      "svgId": "sera-bow-tail",
+      "label": "리본 꼬리",
+      "pivot": [
+        462,
+        490
+      ],
+      "min": -4,
+      "max": 4,
+      "default": 0,
+      "units": "degrees"
+    },
+    {
+      "id": "braid",
+      "svgId": "sera-braid",
+      "label": "땋은 머리",
+      "pivot": [
+        446,
+        292
+      ],
+      "min": -1.2,
+      "max": 1.2,
+      "default": 0,
+      "units": "degrees"
+    }
+  ],
+  "renderFollowers": [
+    {
+      "svgId": "sera-rear-torso-follow",
+      "sourceId": "sera-torso"
+    },
+    {
+      "svgId": "sera-rear-head-follow",
+      "sourceId": "sera-head"
+    },
+    {
+      "svgId": "sera-head-torso-follow",
+      "sourceId": "sera-torso"
+    },
+    {
+      "svgId": "sera-hand-torso-follow",
+      "sourceId": "sera-torso"
+    },
+    {
+      "svgId": "sera-hand-upper-follow",
+      "sourceId": "sera-arm-right-upper"
+    },
+    {
+      "svgId": "sera-hand-lower-follow",
+      "sourceId": "sera-arm-right-lower"
+    },
+    {
+      "svgId": "sera-shoulder-left",
+      "sourceId": "sera-arm-left-upper"
+    }
+  ],
+  "blink": {
+    "eyes": [
+      {
+        "apertureId": "sera-eye-right-aperture",
+        "openLashId": "sera-eye-right-lash-open",
+        "lowerLineId": "sera-eye-right-lower-line",
+        "closedId": "sera-eye-right-closed",
+        "pivot": [
+          0,
+          0
+        ],
+        "space": "local"
+      },
+      {
+        "apertureId": "sera-eye-left-aperture",
+        "openLashId": "sera-eye-left-lash-open",
+        "lowerLineId": "sera-eye-left-lower-line",
+        "closedId": "sera-eye-left-closed",
+        "pivot": [
+          0,
+          0
+        ],
+        "space": "local"
+      }
+    ]
+  },
+  "limitations": [
+    "This is the large reference pose, not a turnable 3D model.",
+    "Conservative controls demonstrate breathing, blinking, speaking and small gestures. Large actions require new key drawings.",
+    "Hand-at-chin artwork is attached to the right arm through explicit render followers.",
+    "Current expression set is a small production starter, not the full reference-sheet acting library."
+  ],
+  "masterSHA256": "d853deb1eb2ce2b16b794caa4875387e783243bf6c2d46154c32f1e485902354"
+}

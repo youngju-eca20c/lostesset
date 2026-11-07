@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0.0",
+  "defaultExpression": "haughty",
+  "expressions": [
+    {
+      "id": "haughty",
+      "label": "도도함",
+      "mouth": "rest",
+      "blink": 0,
+      "nodes": {}
+    },
+    {
+      "id": "joy",
+      "label": "기쁨",
+      "mouth": "smile",
+      "blink": 1,
+      "nodes": {
+        "sera-eye-right-closed": {
+          "d": "M-54 1 Q-15-22 30-11"
+        },
+        "sera-eye-left-closed": {
+          "d": "M-48 6 Q-4-21 40-14"
+        }
+      }
+    },
+    {
+      "id": "sleepy",
+      "label": "졸림",
+      "mouth": "rest",
+      "blink": 1,
+      "nodes": {}
+    }
+  ],
+  "mouths": [
+    {
+      "id": "rest",
+      "label": "기본 미소",
+      "svgId": "sera-mouth-rest"
+    },
+    {
+      "id": "a",
+      "label": "A / 아",
+      "svgId": "sera-mouth-a"
+    },
+    {
+      "id": "i",
+      "label": "I / 이",
+      "svgId": "sera-mouth-i"
+    },
+    {
+      "id": "u",
+      "label": "U / 우",
+      "svgId": "sera-mouth-u"
+    },
+    {
+      "id": "o",
+      "label": "O / 오",
+      "svgId": "sera-mouth-o"
+    },
+    {
+      "id": "smile",
+      "label": "웃음",
+      "svgId": "sera-mouth-smile"
+    },
+    {
+      "id": "sad",
+      "label": "슬픔",
+      "svgId": "sera-mouth-sad"
+    }
+  ]
+}

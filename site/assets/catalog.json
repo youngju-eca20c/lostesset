@@ -1,0 +1,69 @@
+{
+  "project": {
+    "name": "LOST",
+    "repository": "https://github.com/youngju-eca20c/lostesset",
+    "description": "SVG 기반 애니메이션을 위한 캐릭터와 장면 에셋 아카이브"
+  },
+  "assets": [
+    {
+      "id": "sera",
+      "name": "Sera",
+      "nameKo": "세라",
+      "role": "Observer Unit",
+      "type": "character",
+      "status": "svg",
+      "description": "은백색 머리와 보라색 눈의 관측 유닛. 06번 설정화의 가장 큰 그림을 기준으로, 턱을 짚는 자세와 도도한 표정을 유지한 벡터 원화입니다.",
+      "tags": ["관측 유닛", "벡터", "캐릭터"],
+      "art": "assets/characters/sera/sera-master.svg",
+      "thumbnail": "assets/characters/sera/sera-master.svg",
+      "reference": "assets/references/sera-sheet.png",
+      "rig": "assets/characters/sera/rig.json",
+      "expressions": "assets/characters/sera/expressions.json",
+      "version": "1.0.0",
+      "palette": [
+        {"name":"Platinum","hex":"#fff1eb"},
+        {"name":"Hair shadow","hex":"#e9bdc8"},
+        {"name":"Observer navy","hex":"#625687"},
+        {"name":"Deep navy","hex":"#50456f"},
+        {"name":"Signal blue","hex":"#83a7ff"},
+        {"name":"Gold","hex":"#ffd28c"}
+      ]
+    },
+    {
+      "id": "rize",
+      "name": "Rize",
+      "nameKo": "리제",
+      "role": "New-Generation Unit",
+      "type": "character",
+      "status": "reference",
+      "description": "붉은 머리와 장미 장식, 흰색 제복을 가진 차세대 유닛. 07번 설정화를 보관합니다. 벡터 원화는 이후 제작합니다.",
+      "tags": ["차세대 유닛", "설정화", "제작 예정"],
+      "thumbnail": "assets/references/rize-portrait.webp",
+      "reference": "assets/references/rize-sheet.png",
+      "palette": [
+        {"name":"Rose","hex":"#be405a"},
+        {"name":"Burgundy","hex":"#7a2438"},
+        {"name":"Ivory","hex":"#fff0e8"},
+        {"name":"Gold","hex":"#ffcc87"}
+      ]
+    },
+    {
+      "id": "knife",
+      "name": "Knife",
+      "nameKo": "나이프",
+      "role": "Field Engineer Unit",
+      "type": "character",
+      "status": "reference",
+      "description": "고글과 작업 장비를 갖춘 현장 정비 유닛. 08번 설정화를 보관합니다. 벡터 원화는 이후 제작합니다.",
+      "tags": ["현장 정비", "설정화", "제작 예정"],
+      "thumbnail": "assets/references/knife-portrait.webp",
+      "reference": "assets/references/knife-sheet.png",
+      "palette": [
+        {"name":"Olive","hex":"#93956c"},
+        {"name":"Leather","hex":"#826559"},
+        {"name":"Cream","hex":"#f5e8dc"},
+        {"name":"Signal yellow","hex":"#f9c34f"}
+      ]
+    }
+  ]
+}

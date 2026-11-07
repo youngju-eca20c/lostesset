@@ -1,0 +1,11 @@
+{
+  "name": "lostesset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build-sera.mjs && python scripts/build-rig.py",
+    "start": "node scripts/serve.mjs",
+    "test": "python tests/verify-assets.py"
+  }
+}

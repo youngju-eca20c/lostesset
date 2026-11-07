@@ -1,0 +1,16 @@
+{
+  "project": "LOST",
+  "character": "sera",
+  "version": "1.0.0",
+  "source": "06. 세라 옵저버 유닛 캐릭터 시트.png",
+  "sourceSHA256": "0bf2abe830f362b555d76fde7df9b3b9178c10383412e8debf58eca501329d61",
+  "figure": "largest illustration on the left",
+  "sourceFrame": [
+    0,
+    70,
+    600,
+    940
+  ],
+  "artwork": "native authored Bézier paths with separate color and ink groups",
+  "pose": "reference chin-hand pose"
+}
